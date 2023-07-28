@@ -18,4 +18,20 @@ fun main(args: Array<String>) {
 
     println(PI)
 
+    val boolean = true
+    val longNumber = 3L
+    val double = 2.718
+    val float = 1.1f
+
+    val firstValue = 20
+    val secondValue = 10
+    val thirdValue = firstValue -secondValue
+    println(thirdValue)
+
+    val surname = "Azul"
+    val nameT = "Cielo"
+    val fullName = "My name is $nameT $surname"
+    println(fullName)
+
+
 }
